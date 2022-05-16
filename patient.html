@@ -5,10 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Registration Form</title>   
-    
 </head>
-
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolor quibusdam nam ipsum officiis, eligendi ad hic sed minima eius quos. Nam eaque, incidunt ullam commodi quae magni. Aut, laudantium?</p>
+    <h1>Patient Registration Form </h1>
+    <Form>
+
+        <div>
+            <lable for="firstname"> Frist Nmae :</lable>
+            <Input type="text" id="first name" name="first name">
+        </div>
+       <div>
+            <lable for="lastname"> Last Nmae :</lable>
+            <Input type="text" id="Last name" name="Last name">
+        </div> 
+        
+
+        <div>
+            <lable for="sex"> Sex :</lable>
+            <select name="sex" id="sex" >
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+            </select>
+        </div> 
+        <div>
+            <lable for="Age"> Age :</lable>
+            <Input type="number" id="age" name="Age">
+        </div> 
+        <br>
+        <div>
+            <lable for="contant"> Contact :</lable>
+            <Input type="text" Age="contact" name="contact">
+        </div> <br>
+        <div>
+            <lable for="Email"> Email :</lable>
+            <Input type="text" Age="Email" name="Email">
+        </div><br> 
+        <div>
+            <lable> Notes :</lable>
+            <Textarea name="Notes" id="Notes" row="6" colum="25"></Textarea>
+        </div>
+        <br>
+        <div>
+            <table>  Are you vaccinated? </table>
+            <input type="radio" id="vaccintion_yes" name="vaccintation" value="yes">
+            <lable for="vaccintion_yes">yes</lable>
+            <input type="radio"  id="vaccintion_no " name="vaccintation" value="no">
+            <lable for="vaccintion_no">no</lable>
+            <input type="radio"  id="vaccintion_dontknow" name="vaccintation" value="dontknow ">
+            <lable for="vaccintion_dontknow"> I don't know</lable> 
+         </div>
+         <br>
+         <div>
+             <label> Hobbies:</label>
+             <input type="checkbox" id="sports" name="sports">
+             <label for ="vaccintion_yes"> sports</label>
+             <input type="checkbox" id="cooking" name="cooking">
+             <label for ="vaccintion_yes"> cooking</label>
+             <input type="checkbox" id="hiking" name="hiking">
+             <label for ="vaccintion_yes"> hiking</label>
+             <input type="checkbox" id="gardening" name="gardening">
+             <label for ="vaccintion_yes"> gardening</label>
+         </div>
+         <br>
+         <div>
+             <label> country:</label>
+             <select name="country" id="country" >
+                 <option value="us">USA</option>
+                 <option value="pk">PAKISTAN</option>
+                 <option value="sg">SINAPORE</option>
+                 <option value="ca">CANADA</option>
+            </select>
+         </div>
+          <br>
+         <div>
+            <label for ="passport"> Passport:</label>
+            <input type="file" id="passport" name="passport">
+         </div>
+         <br>
+         <div>
+            <label for=""license"> License:</label>
+            <input type="file" id="license" name="license">
+         </div>
+         <br>
+         <div>
+            <label for ="insurance"> Insurance:</label>
+            <input type="file" id="insurance" name="insurance">
+         </div>
+         <br>
+    </Form>
+    <br><br>
+    <table>
+        <tr><!--table row-->
+            <th>First Name </th> <!-- header -->
+            <th> Last Name </th>
+            <th> Sex </th> 
+            <th> Age </th>
+            <th> Contact </th>
+            <th> Email </th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Arthi</td>
+                <td>Ravi</td>
+                <td>F</td>
+                <td>10</td>
+                <td>7565642315</td>
+                <td>Arthi.ravi@gmail.com</td>
+            </tr>
+        </tbody>
+        <tr>
+            <td>Eve</td>
+            <td>meena</td>
+            <td>m</td>
+            <td>21</td>
+            <td>8799005467</td>
+            <td>Eve.meena@gmail.com</td>
+        </tr>
+    </table>
 </body>
+
+
 </html>
